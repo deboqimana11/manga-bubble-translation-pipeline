@@ -467,9 +467,9 @@ class MangaTranslatorUI:
 
     def _fill_ai_example(self) -> None:
         if not self.ai_endpoint.get().strip():
-            self.ai_endpoint.set("https://aigc.x-see.cn/")
+            self.ai_endpoint.set("https://your-openai-compatible-endpoint/")
         if not self.ai_model.get().strip():
-            self.ai_model.set("grok-420-fast")
+            self.ai_model.set("your-model-name")
         self.translator_backend.set("openai-compatible")
         self._update_backend_state()
 
