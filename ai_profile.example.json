@@ -1,0 +1,5 @@
+{
+  "ai_endpoint": "https://your-openai-compatible-endpoint/",
+  "ai_api_key": "replace-with-your-api-key",
+  "ai_model": "your-model-name"
+}

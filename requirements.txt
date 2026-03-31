@@ -1,0 +1,14 @@
+numpy>=2.4,<3
+opencv-python>=4.13,<5
+requests>=2.33,<3
+torch>=2.11,<2.12
+torchvision>=0.26,<0.27
+huggingface_hub>=1.8,<2
+manga-ocr==0.1.14
+Pillow>=12.1,<13
+simple-lama-inpainting==0.1.2
+transformers>=5.4,<6
+ultralytics>=8.4,<9
+onnx>=1.21,<2
+pyclipper>=1.4,<2
+shapely>=2.1,<3
